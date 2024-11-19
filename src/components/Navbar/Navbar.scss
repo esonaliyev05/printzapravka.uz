@@ -1,0 +1,119 @@
+nav{
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    background-color:  rgb(27, 40, 56);
+border-bottom-color:  rgb(229, 231, 235);
+border-bottom-style:  solid;
+border-bottom-width:  0px;
+border-left-color:  rgb(229, 231, 235)
+border-left-style solid
+border-left-width 0px
+border-right-color rgb(4, 120, 87)
+border-right-style solid
+border-right-width 0px
+border-top-color rgb(229, 231, 235)
+border-top-style solid
+border-top-width 0px
+box-shadow rgba(0, 99, 149, 0.9) 2px 4px 12px 0px
+box-sizing border-box
+display block
+font-family ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+font-feature-settings normal
+font-variation-settings normal
+height 80px
+line-height 24px
+margin-bottom 0px
+margin-left 0px
+margin-right 0px
+margin-top 0px
+padding-bottom 0px
+padding-left 0px
+padding-right 0px
+padding-top 0px
+scroll-behavior smooth
+tab-size 4
+text-size-adjust 100%
+unicode-bidi isolate
+width 1519.2px
+-webkit-tap-highlight-color rgba(0, 0, 0, 0);
+
+.container{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .Nav-logo{
+        width: 140px;
+        height: 68.8px;
+
+        img{
+            width: 100%;
+            height: auto;
+
+        }
+    }
+    
+    .Nav-ul-concet{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 45px;
+
+        ul{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            
+
+            li{
+                a{
+                    color:  rgb(229, 231, 235);
+                     font-weight: 500;    
+                     
+                } 
+                &:hover{
+                    transition-duration: 1s;
+                    transform: scale(1.1);
+                    font-weight: 600;
+                }  
+            }
+        }
+
+        select{
+            background: none;
+            border: none;
+            color: white;
+
+            option{
+                color: black;
+            }
+        }
+        .Nav-ul-button{
+            min-width: 138px;
+            height: 37px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+            color: white;
+            border: 2px solid  rgb(99, 102, 241);
+            padding: 0 10px;
+        }
+       
+        // button{
+        //     padding: 15px 35px;
+
+        // }
+
+    }
+
+
+
+}
+    
+}
