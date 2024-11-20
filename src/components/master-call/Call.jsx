@@ -83,7 +83,7 @@ const Call = () => {
   const SendMassamges = (event) => {
     event.preventDefault();
     const token = "8014119539:AAEkEiT-5aYGSUVI2F7VbIt1F2jN1M_aM5Q";
-    const chat_id = 1271362249;
+    const chat_id =  1271362249;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("name").value.trim();
     const surname = document.getElementById("surname").value.trim();
