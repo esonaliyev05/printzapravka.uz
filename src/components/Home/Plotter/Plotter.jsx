@@ -17,10 +17,10 @@ const Plotter = () => {
                 </div>
 
                 <div className="bac1">
-                    <img src="./public/Plotter/fourthbanner-nAd0r_eJ.png" alt="" />
+                    <img src="./Plotter/fourthbanner-nAd0r_eJ.png" alt="" />
                 </div>
                 <div className="bac2">
-                    <img src="./public/Plotter/fourthbannerprint-MywiEDUR.png" alt="" />
+                    <img src="./Plotter/fourthbannerprint-MywiEDUR.png" alt="" />
                 </div>
              </div>
              <div className="ploter-frond">
