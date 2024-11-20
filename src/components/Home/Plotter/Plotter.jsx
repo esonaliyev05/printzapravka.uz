@@ -25,8 +25,7 @@ const Plotter = () => {
              </div>
              <div className="ploter-frond">
               
-             <h1>Ремонт Plotter принтеров
-с гарантией качества!</h1>
+             <h1>Ремонт Plotter принтеровс гарантией качества!</h1>
 
              </div>
           </div>
