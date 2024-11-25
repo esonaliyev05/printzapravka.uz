@@ -1,5 +1,6 @@
 import React from "react";
 import "./Customer.scss";
+// import Swiper from "swiper";
 
 const Customer = () => {
   return (
@@ -27,6 +28,7 @@ const Customer = () => {
           </div>
         </div>
       </div>
+      {/* <Swiper/> */}
     </div>
   );
 };

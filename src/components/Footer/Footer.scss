@@ -1,0 +1,153 @@
+.Footer {
+  width: 100%;
+  min-height: 410px;
+  background: #111827;
+
+  .container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    // border: 1px solid gray;
+
+    .Footer-parent {
+      width: 100%;
+      height: 345px;
+      display: flex;
+      padding: 48px 0 20px 24px;
+      justify-content: space-between;
+      // align-items: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #494c6c;
+
+      .Footer-logo {
+      width: 15%;
+        img {
+          width: 150px;
+          height: 75px;
+        }
+      }
+
+      .Footer-text-1 {
+        width: 15%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-size: 1.4rem;
+          line-height: 1.75rem;
+          color: white;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+            "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+          font-weight: 700;
+        }
+
+        a {
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+            "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+          font-weight: 500;
+          margin: 19px 0 0 5px;
+          color: #e6e7e8;
+
+        }
+      }
+      .Footer-text-2 {
+        width: 25%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 50px ;
+
+        h3 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 1.4rem;
+            line-height: 1.75rem;
+            color: white;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+              "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+            font-weight: 700;
+          }
+  
+          a {
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+              "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+            font-weight: 500;
+            margin: 19px 0 0 5px;
+            color: #e6e7e8;
+            
+          }
+
+      }
+      .Footer-text-3 {
+        width: 25%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 1.4rem;
+            line-height: 1.75rem;
+            color: white;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+              "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+            font-weight: 700;
+          }
+  
+          p{
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+              "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+            font-weight: 400;
+            color: #e6e7e8;
+            margin: 20px 0 10px 0;
+            line-height: 25px;
+
+          }
+
+          button{
+             width: 135px;
+             height: 45px;
+             border-radius: 12px;
+             background: #22274F;
+             color: #9AA8EE;
+             font-weight: 600;
+             border: none;
+             cursor: pointer;
+
+
+          }
+      }
+    }
+
+     .Footer-end{
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3{
+            color: white;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+            "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+          font-weight: 700;
+            color: white;
+
+        }
+
+        P{
+            color: white;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+            "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+          font-weight: 300;
+
+          span{
+            color: #A357FF;
+          }
+        }
+
+     }
+
+  }
+}
