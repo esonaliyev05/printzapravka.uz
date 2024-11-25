@@ -1,108 +1,166 @@
-.Plotter{
+.Plotter {
+  width: 100%;
+  height: auto;
+  // min-height: 600px;
+
+  .container {
     width: 100%;
-    height: auto;
-    // min-height: 600px;
-    
-    .container{
+    min-height: 600px;
+    background-color: #293d51;
+    // position: relative;
+
+    .Plotter-parent {
+      width: 1200px;
+      min-height: 570px;
+      position: relative;
+      margin: 0 auto;
+
+      .ploter-backed {
         width: 100%;
-        min-height: 600px;
-        background-color: #293D51;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 0 0 0;
+        margin: 0 auto;
         // position: relative;
-        
-        .Plotter-parent{
-            width: 1200px;
-            min-height: 570px;
-            position: relative;
-            margin: 0 auto;
 
-        
-        
-        .ploter-backed{
-            width: 100%;
-            height: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 80px 0 0 0;
-            margin: 0 auto;
-            // position: relative;
-
-            .blur{
-                width: 60%;
-                height: 80%;
-                position: absolute;
-                backdrop-filter: blur(10px);
-                left: 0;
-            }
-
-            .bac1{
-                width: 60%;
-                height: 100%;
-                
-                // mix-blend-mode: multiply;
-                // filter: blur(5px)
-                // backdrop-filter: blur(5px);
-                // background-clip: floor(5px);
-                // backface-visibility: filter(5px);
-                
-                img{
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-            .bac2{
-                width: 40%;
-                height: auto;
-
-                img{
-                    width: 100%;
-                }
-            }
-
+        .blur {
+          width: 60%;
+          height: 80%;
+          position: absolute;
+          backdrop-filter: blur(10px);
+          left: 0;
         }
 
-        .ploter-frond{
+        .bac1 {
+          width: 60%;
+          height: 100%;
+
+          // mix-blend-mode: multiply;
+          // filter: blur(5px)
+          // backdrop-filter: blur(5px);
+          // background-clip: floor(5px);
+          // backface-visibility: filter(5px);
+
+          img {
             width: 100%;
-            height: auto;
-            position: absolute;
-            text-align: center;
-            z-index: 2;
-            top: 30%;
-
-            h1{
-                color: white;
-                font-size: 3.75rem;
-                line-height: 1;
-                font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-                margin: 0 0 40px 0;
-            }
-
-            p{
-                font-size: 1.25rem;
-                line-height: 1.75rem;
-                color: white;
-                font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
-                text-shadow: 1px 1px 2px rgba(0, 0, 0, .8), -1px -1px 2px rgba(0, 0, 0, .8), 1px -1px 2px rgba(0, 0, 0, .8), -1px 1px 2px rgba(0, 0, 0, .8);
-            }
-
-
-            }
+            object-fit: cover;
+          }
         }
-      
+        .bac2 {
+          width: 40%;
+          height: auto;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .ploter-frond {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        z-index: 2;
+        top: 30%;
+
+        h1 {
+          color: white;
+          font-size: 3.75rem;
+          line-height: 1;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+            "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+          margin: 0 0 40px 0;
+        }
+
+        p {
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+          color: white;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+            "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8),
+            -1px -1px 2px rgba(0, 0, 0, 0.8), 1px -1px 2px rgba(0, 0, 0, 0.8),
+            -1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+      }
     }
-      .Plotter-backed-img{
-            width: 100%;
-            height: 500px;
-            position: relative;
+  }
+  .Plotter-backed-img {
+    width: 100%;
+    height: 450px;
+    position: relative;
 
-            img{
-                width: 100%;
-                height: 500px;
-                object-fit: cover;
-                position: fixed;
-                z-index: -1;
-                top: 30%;
-            }
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      position: fixed;
+      z-index: -1;
+      top: 0;
+    }
 
-        }
+    .Plotter-box {
+      width: 1200px;
+      height: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .boxt {
+        width: 320px;
+        height: 264px;
+        z-index: 2;
+        padding: 20px;
+        backdrop-filter: blur(16px);
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        border-radius: 16px;
+        --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+          0 2px 4px -2px rgb(0 0 0 / 0.1);
+        --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+          0 2px 4px -2px var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+          var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+          h1{
+            color: white;
+            font-size: 54px;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            -webkit-tap-highlight-color: transparent;
+            margin: 10px 0;
+          }
+          h2{
+            color: white;
+            font-size: 24px;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            -webkit-tap-highlight-color: transparent;
+            margin: 0 0 10px 0;
+          }
+          p{
+            color: white;
+            font-size: 14px;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            -webkit-tap-highlight-color: transparent;
+            border-bottom: 1px solid white;
+            // margin: 15px 0;
+            padding: 15px 0;
+          }
+      }
+      .boxt:nth-child(2){
+        width: 340px;
+        height: 290px;
+      }
+    }
+  }
 }

@@ -36,6 +36,15 @@ const Plotter = () => {
       </div>
        <div className="Plotter-backed-img">
          <img src="public/Plotter/fixed-fon-CsSjUvgT.jpg" alt="" />
+
+               <div className="Plotter-box">
+                 
+                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"> <h1>6</h1> <h2>ЛЕТ НА РЫНКЕ</h2> <p>Огромный опыт в ремонте и обслуживании принтеров</p> </div>
+                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"> <h1>140000</h1> <h2>ПРИНТЕРОВ ОТРЕМОНТИРОВАНО</h2> <p>Выполнено более 20 000 ремонтов принтеров</p> </div>
+                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"><h1> 2500</h1> <h2>ОТЗЫВОВ</h2> <p> Наши клиенты довольны качеством работы</p> </div>
+
+               </div>
+
         </div>
     </div>
   );

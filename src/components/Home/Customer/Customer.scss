@@ -1,0 +1,91 @@
+.Customer{
+    width: 100%;
+    min-height: 800px;
+    background: #1D2B3C;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 1200px;
+        height: auto;
+        
+        .Concet-master{
+            width: 900px;
+            height: 500px;
+            background-color: #202B39;
+            border: 1px solid gray;
+            margin: 150px auto;
+            border-radius: 16px;
+            --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+            --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+            h1{
+                font-size: 45px;
+                color: white;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                margin:  50px auto;
+                text-align: center;
+
+            }
+
+            .Concet-master-form{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 50px;
+
+                form{
+                    width: 50%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+
+                    input{
+                        width: 90%;
+                        height: 55px;
+                        border: 10px;
+                        background: #1D2B3C;
+                        border: 0.9px solid #56595c;
+                        margin: 10px 0;
+                        padding: 0 10px;
+                        border-radius: 12px;
+                        outline: none;
+                        color: white;
+
+                    }
+
+                    button{
+                        width: 90%;
+                        height: 55px;
+                        border-radius: 12px;
+                        background: #2E365E;
+                        color: white;
+                        border: none;
+                        font-size: 15px;
+                        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                        margin: 15px 0 0 0;
+                        cursor: pointer;
+
+                    }
+
+                }
+
+                .maps{
+                    width: 50%;
+                    height: auto;
+                    
+                
+
+                }
+
+            }
+
+        }
+
+        }
+
+    }
+

@@ -77,7 +77,6 @@
 import React from "react";
 import "./Call.scss";
 import axios from "axios";
-// import { useTranslation } from "react-i18next";
 
 const Call = () => {
   const SendMassamges = (event) => {
