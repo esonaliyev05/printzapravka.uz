@@ -59,18 +59,20 @@
 
         .box-title {
           width: 85%;
+          min-height: 60px;
           flex-wrap: wrap;
           position: absolute;
-          bottom: 10px;
+          bottom: 20px;
           left: 50%;
           transform: translateX(-50%);
           background: linear-gradient(90deg, #6366f1, #8b5cf6);
           color: white;
           padding: 10px 20px;
-          font-size: 12px;
+          font-size: 15px;
           border-radius: 8px;
           font-family: Arial, sans-serif;
           text-align: center;
+
         }
 
         &:hover {

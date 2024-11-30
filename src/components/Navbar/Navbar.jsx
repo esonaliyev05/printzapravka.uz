@@ -3,6 +3,7 @@ import React from 'react'
 import { useTranslation } from "react-i18next";
 import "./Navbar.scss"
 import { NavLink } from 'react-router-dom'
+import { FaBars } from "react-icons/fa6";
 
 const Navbar = () => {
   const {t, i18n} = useTranslation();
@@ -40,8 +41,11 @@ const Navbar = () => {
 
           </select>
 
+       
+
           {/* <button type='submit'> Yaxshi mastera</button> */}
          </div>
+         <FaBars className='Nav-icon'/>
 
       </div>
     </nav>

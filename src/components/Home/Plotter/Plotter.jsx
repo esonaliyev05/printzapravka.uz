@@ -1,7 +1,15 @@
 import React from "react";
 import "./Plotter.scss";
+import { useTranslation } from "react-i18next";
 
 const Plotter = () => {
+
+  const { t, i18n } = useTranslation();
+  const handelChange = (event) => {
+    const selectedLanugage = event.target.value;
+
+    i18n.changeLanguage(selectedLanugage);
+  };
   return (
     <div className="Plotter">
       <div className="container">
@@ -23,12 +31,11 @@ const Plotter = () => {
           </div>
           <div className="ploter-frond">
             <h1>
-              Ремонт Plotter принтеров с <br /> гарантией качества!{" "}
+               {t("Plotter printerlarni ta'mirlash") } <br /> {t("Sifat kafolati bilan!")}
             </h1>
 
             <p>
-              Мы обеспечим надежный ремонт и обслуживание вашего Plotter
-              принтера, чтобы он снова работал как новый.
+              {t("Biz sizning Plotter printeringizni yana yangidek ishlashi uchun ishonchli ta'mirlash va xizmat ko'rsatishni ta'minlaymiz.")}
             </p>
           </div>
         </div>
@@ -39,9 +46,9 @@ const Plotter = () => {
 
                <div className="Plotter-box">
                  
-                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"> <h1>6</h1> <h2>ЛЕТ НА РЫНКЕ</h2> <p>Огромный опыт в ремонте и обслуживании принтеров</p> </div>
-                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"> <h1>140000</h1> <h2>ПРИНТЕРОВ ОТРЕМОНТИРОВАНО</h2> <p>Выполнено более 20 000 ремонтов принтеров</p> </div>
-                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"><h1> 2500</h1> <h2>ОТЗЫВОВ</h2> <p> Наши клиенты довольны качеством работы</p> </div>
+                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"> <h1>6</h1> <h2>{t("YILLARDAN BERI BOZORDA")}</h2> <p>{t("Printerlarni ta'mirlash va xizmat ko'rsatishda katta tajriba")} </p> </div>
+                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"> <h1>140000</h1> <h2>{t("TA'MIRLANGAN PRINTERLAR")}</h2> <p>{t("20 000 dan ortiq printerlar ta'mirlandi")}</p> </div>
+                 <div data-aos="fade-right"  data-aos-duration="3500" className="boxt"><h1> 2500</h1> <h2>{t("FIKRLAR")}</h2> <p> {t("Mijozlarimiz ish sifatidan mamnun")} </p> </div>
 
                </div>
 

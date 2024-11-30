@@ -1,7 +1,14 @@
 import React from "react";
 import "./Footer.scss";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
+  const handelChange = (event) => {
+    const selectedLanugage = event.target.value;
+
+    i18n.changeLanguage(selectedLanugage);
+  };
   return (
     <div className="Footer">
       <div className="container">
@@ -10,27 +17,27 @@ const Footer = () => {
             <img src="./public/Footer/logo-print-BsJKyGnY.png" alt="" />
           </div>
           <div className="Footer-text-1">
-            <h3>Компания</h3>
+            <h3>{t("Kompaniya")}</h3>
 
-            <a href="#">О нас</a>
-            <a href="#">Наши Перемущество</a>
-            <a href="#">Наши Услуги</a>
+            <a href="#"> {t("Biz haqimizda")} </a>
+            <a href="#">{t("Bizning afzalliklarimiz")}</a>
+            <a href="#">{t("Bizning xizmatlarimiz")}</a>
           </div>
           <div className="Footer-text-2">
-            <h3>Контакты</h3>
+            <h3>{t("Kontaktlar")}</h3>
 
             <a href="">tafakkurxizmatsamarasimchj@gmail.com</a>
             <a href="">+998940511494</a>
-            <a href="">Адрес</a>
-            <a href="">Сиргалийский район, махалля Номданак, улица Файзли, дом 11.</a>
+            <a href="">{t("Manzil")}</a>
+            <a href="">{t("Sergeli tumani, Nomdanak mahallasi, Fayzli ko‘chasi, 11-uy.")}</a>
           </div>
           <div className="Footer-text-3">
            
-           <h3> Вызов мастера</h3>
+           <h3> {t("Ustani chaqirish")} </h3>
                
-               <p> Сломался ли ваш принтер или другая техника? Если у вас нет возможности привезти оборудование в мастерскую, наши специалисты готовы помочь! Все, что вам нужно сделать — это позвонить, и мы приедем к вам для диагностики и ремонта.</p>
+               <p> {t("Sizning printeringiz yoki boshqa texnikangiz buzildimi? Agar uskunani ustaxonaga olib kelish imkoni bo‘lmasa, bizning mutaxassislarimiz yordam berishga tayyor! Sizdan talab qilinadigan narsa — qo‘ng‘iroq qilish, biz esa diagnostika va ta’mir uchun sizning oldingizga kelamiz.")}</p>
               
-              <button type="submit">На Выезд</button>
+              <button type="submit"> {t("Joyida ta’mirlash")} </button>
 
           </div>
         </div>

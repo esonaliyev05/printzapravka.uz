@@ -1,13 +1,20 @@
 import React from "react";
 import "./Customer.scss";
+import { useTranslation } from "react-i18next";
 // import Swiper from "swiper";
 
 const Customer = () => {
+  const { t, i18n } = useTranslation();
+  const handelChange = (event) => {
+    const selectedLanugage = event.target.value;
+
+    i18n.changeLanguage(selectedLanugage);
+  };
   return (
     <div className="Customer">
       <div className="container">
         <div className="Concet-master">
-          <h1>Связаться с нами</h1>
+          <h1>{t("Biz bilan bog‘lanish")}</h1>
 
           <div className="Concet-master-form">
             <form>

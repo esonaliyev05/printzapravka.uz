@@ -1,0 +1,142 @@
+.Services{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(27, 40, 56), rgb(51, 65, 78));
+  
+    .text {
+        width: 60%;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+        border-bottom: 2px solid #7a7a7e;
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+        font-size: 24px;
+
+        h3{
+            color: #D4D4D8;
+        }
+
+    
+      }
+
+    .container{
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+        .servis-chiled{
+            border: 2px solid white;
+            min-height: 250px;
+            margin: 40px  auto 0 auto;
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                position: absolute;
+                // top: -30%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            }
+
+            .card-content {
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 20px;
+                // background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+                color: white;
+                
+                h3 {
+                  margin: 0 0 10px;
+                  font-size: 1.2em;
+                  font-family: sans-serif;
+                  
+    
+                }
+          
+                p {
+                  margin: 0 0 45px 0;
+                  font-size: .8em;
+                  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+                }
+          
+                button {
+                  padding: 10px 20px;
+                  font-size: 0.9em;
+                  background: transparent;
+                  border: 2px solid #ffffff;
+                  border-radius: 8px;
+                  color: white;
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  position: absolute;
+                  right: 8%;
+                  bottom: 15%;
+                //   margin: 10px 0;
+          
+                  &:hover {
+                    background: white;
+                    color: black;
+                  }
+                }
+              }
+
+        }
+
+
+        .servis-chiled:first-child{
+            width: 500px;
+            height: 250px;
+
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                position: absolute;
+                top: -50%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            }
+
+
+
+        }
+        .servis-chiled:nth-child(2){
+            width: 280px;
+            height: 250px;
+        }
+        .servis-chiled:nth-child(3){
+            width: 340px;
+
+        }
+        .servis-chiled:nth-child(4){
+            width: 280px;
+
+        }
+        .servis-chiled:nth-child(5){
+            width: 560px;
+
+            img{
+                top: -65%;
+            }
+
+        }
+        .servis-chiled:nth-child(6){
+            width: 280px;
+        }
+
+    }
+    
+}

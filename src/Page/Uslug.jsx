@@ -1,8 +1,11 @@
 import React from 'react'
+import Services from '../components/Uslug/Services'
 
 const Uslug = () => {
   return (
-    <div>Uslug</div>
+    <div>
+       <Services/>
+    </div>
   )
 }
 

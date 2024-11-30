@@ -74,327 +74,77 @@
 // };
 
 // export default Call;
-// import React from "react";
-// import "./Call.scss";
-// import axios from "axios";
-
-// const Call = () => {
-//   const SendMassamges = (event) => {
-//     event.preventDefault();
-//     const token = "8014119539:AAEkEiT-5aYGSUVI2F7VbIt1F2jN1M_aM5Q";
-//     const chat_id =  1271362249;
-//     const url = `https://api.telegram.org/bot${token}/sendMessage`;
-//     const name = document.getElementById("name").value.trim();
-//     const surname = document.getElementById("surname").value.trim();
-//     const number = document.getElementById("number").value.trim();
-     
-   
-    
-//     // Bo'sh maydonlarni tekshirish
-//     if (!name || !surname || !number) {
-//       alert("Iltimos, barcha maydonlarni to'ldiring.");
-//       return;
-
-//     }
-
-//     const massageContent = `Ismi: ${name}\n Familyasi: ${surname}\n Nomeri: ${number}`;
-
-//     axios
-//       .post(url, {
-//         url: url,
-//         chat_id: chat_id,
-//         text: massageContent,
-//       })
-//       .then((res) => {
-//         alert("Xabar muvaffaqiyatli yuborildi!");
-//       })
-//       .catch((error) => {
-//         console.log("Yuborishda xatolik: ", error.response?.data || error.message);
-//         alert("Xabar yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.");
-//       });
-//   };
-
-//   return (
-//     <>
-//       <div className="Masster-call">
-//         <div className="container">
-//           <div className="Masster-call-concet">
-//             <h1 className="concet-h1">Связаться с нами</h1>
-//             <div className="concet-parent">
-//               <div className="concet-chiled">
-//                 <form id="myForm" onSubmit={SendMassamges}>
-//                   <input type="text" id="name" placeholder="Имя" />
-//                   <input type="text" id="surname" placeholder="Фамилия" />
-//                   <input type="text" id="number" placeholder="94 599 93 38" />
-//                   <button type="submit" id="submit">
-//                     Отправить
-//                   </button>
-//                 </form>
-//               </div>
-//               <div className="concet-chiled">
-//                 <iframe
-//                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11960.483246752573!2d69.2350!3d41.3195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef3b4c7085e85%3A0xdeb7632ec6801b88!2sQo'qon%20City!5e0!3m2!1sen!2s!4v1699700000000"
-//                   width="350px"
-//                   height="260"
-//                 ></iframe>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default Call;
-
-// import React from "react";
-// import "./Call.scss";
-// import axios from "axios";
-
-// const Call = () => {
-//   const SendMassamges = (event) => {
-//     event.preventDefault();
-
-//     const token = "8014119539:AAEkEiT-5aYGSUVI2F7VbIt1F2jN1M_aM5Q";
-//     const chat_id = "1271362249"; // String sifatida yozilgan
-//     const url = `https://api.telegram.org/bot${token}/sendMessage`;
-
-//     const name = document.getElementById("name").value.trim();
-//     const surname = document.getElementById("surname").value.trim();
-//     const number = document.getElementById("number").value.trim();
-
-//     // Bo'sh maydonlarni tekshirish
-//     if (!name || !surname || !number) {
-//       alert("Iltimos, barcha maydonlarni to'ldiring.");
-//       return;
-//     }
-
-//     const massageContent = `Ismi: ${name}\nFamilyasi: ${surname}\nNomeri: ${number}`;
-
-//     // Xabar yuborish
-//     axios
-//       .post(url, {
-//         chat_id: chat_id,
-//         text: massageContent,
-//       })
-//       .then((res) => {
-//         alert("Xabar muvaffaqiyatli yuborildi!");
-//       })
-//       .catch((error) => {
-//         console.error("Xatolik:", error.response?.data || error.message);
-//         alert("Xabar yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.");
-//       });
-//   };
-
-//   return (
-//     <div className="Masster-call">
-//       <div className="container">
-//         <div className="Masster-call-concet">
-//           <h1 className="concet-h1">Связаться с нами</h1>
-//           <div className="concet-parent">
-//             <div className="concet-chiled">
-//               <form id="myForm" onSubmit={SendMassamges}>
-//                 <input type="text" id="name" placeholder="Имя" />
-//                 <input type="text" id="surname" placeholder="Фамилия" />
-//                 <input type="text" id="number" placeholder="94 599 93 38" />
-//                 <button type="submit" id="submit">
-//                   Отправить
-//                 </button>
-//               </form>
-//             </div>
-//             <div className="concet-chiled">
-//               <iframe
-//                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11960.483246752573!2d69.2350!3d41.3195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef3b4c7085e85%3A0xdeb7632ec6801b88!2sQo'qon%20City!5e0!3m2!1sen!2s!4v1699700000000"
-//                 width="350px"
-//                 height="260"
-//               ></iframe>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Call;
-
-// import React, { useEffect } from "react";
-// import "./Call.scss";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// import axios from "axios";
-
-// const Call = () => {
-//   useEffect(() => {
-//     AOS.init(); // AOS-ni ishga tushirish
-//   }, []);
-
-//   const SendMassamges = (event) => {
-//     event.preventDefault();
-
-//     const token = "8014119539:AAEkEiT-5aYGSUVI2F7VbIt1F2jN1M_aM5Q";
-//     const chat_id = "1271362249"; // Foydalanuvchi yoki guruh ID
-//     const url = `https://api.telegram.org/bot${token}/sendMessage`;
-
-//     const name = document.getElementById("name").value.trim();
-//     const surname = document.getElementById("surname").value.trim();
-//     const number = document.getElementById("number").value.trim();
-
-//     if (!name || !surname || !number) {
-//       alert("Iltimos, barcha maydonlarni to'ldiring.");
-//       return;
-//     }
-
-//     const massageContent = `Ismi: ${name}\nFamilyasi: ${surname}\nNomeri: ${number}`;
-
-//     axios
-//       .post(url, {
-//         chat_id: chat_id,
-//         text: massageContent,
-//       })
-//       .then((res) => {
-//         alert("Xabar muvaffaqiyatli yuborildi!");
-//       })
-//       .catch((error) => {
-//         console.error("Xatolik:", error.response?.data || error.message);
-//         alert("Xabar yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.");
-//       });
-//   };
-
-//   return (
-//     <div className="Masster-call">
-//       <div className="container">
-//         <div className="Masster-call-concet">
-//           <h1 className="concet-h1">Связаться с нами</h1>
-//           <div className="concet-parent">
-//             <div className="concet-chiled">
-//               <form id="myForm" onSubmit={SendMassamges}>
-//                 <input type="text" id="name" placeholder="Имя" />
-//                 <input type="text" id="surname" placeholder="Фамилия" />
-//                 <input type="text" id="number" placeholder="94 599 93 38" />
-//                 <button type="submit" id="submit">
-//                   Отправить
-//                 </button>
-//               </form>
-//             </div>
-//             <div className="concet-chiled" data-aos="fade-up">
-//               <iframe
-//                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11960.483246752573!2d69.2350!3d41.3195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef3b4c7085e85%3A0xdeb7632ec6801b88!2sQo'qon%20City!5e0!3m2!1sen!2s!4v1699700000000"
-//                 width="350px"
-//                 height="260"
-//               ></iframe>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Call;
-
-
-
-
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Call.scss";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import axios from "axios";
 
 const Call = () => {
-  // Form uchun state-lar
-  const [name, setName] = useState("");
-  const [surname, setSurname] = useState("");
-  const [number, setNumber] = useState("");
-  const [loading, setLoading] = useState(false);
-
-  // AOS animatsiyasini ishga tushirish
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  // Xabar yuborish funksiyasi
-  const SendMessages = async (event) => {
+  const SendMassamges = (event) => {
     event.preventDefault();
     const token = "8014119539:AAEkEiT-5aYGSUVI2F7VbIt1F2jN1M_aM5Q";
-    const chat_id = "1271362249"; // To'g'ri chat ID
+    const chat_id =  1271362249;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
-
-    // Maydonlarni tekshirish
-    if (!name.trim() || !surname.trim() || !number.trim()) {
+    const name = document.getElementById("name").value.trim();
+    const surname = document.getElementById("surname").value.trim();
+    const number = document.getElementById("number").value.trim();
+     
+   
+    
+    // Bo'sh maydonlarni tekshirish
+    if (!name || !surname || !number) {
       alert("Iltimos, barcha maydonlarni to'ldiring.");
       return;
+
     }
 
-    // Xabar mazmuni
-    const messageContent = `Ismi: ${name}\nFamilyasi: ${surname}\nNomeri: ${number}`;
-    setLoading(true);
+    const massageContent = `Ismi: ${name}\n Familyasi: ${surname}\n Nomeri: ${number}`;
 
-    try {
-      const response = await axios.post(url, {
+    axios
+      .post(url, {
+        url: url,
         chat_id: chat_id,
-        text: messageContent,
+        text: massageContent,
+      })
+      .then((res) => {
+        alert("Xabar muvaffaqiyatli yuborildi!");
+      })
+      .catch((error) => {
+        console.log("Yuborishda xatolik: ", error.response?.data || error.message);
+        alert("Xabar yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.");
       });
-      console.log("Xabar yuborildi:", response.data);
-      alert("Xabar muvaffaqiyatli yuborildi!");
-      // Formani tozalash
-      setName("");
-      setSurname("");
-      setNumber("");
-    } catch (error) {
-      console.error("Xatolik:", error.response?.data || error.message);
-      alert("Xabar yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.");
-    } finally {
-      setLoading(false);
-    }
   };
 
   return (
-    <div className="Masster-call">
-      <div className="container">
-        <div className="Masster-call-concet">
-          <h1 className="concet-h1">Связаться с нами</h1>
-          <div className="concet-parent">
-            <div className="concet-chiled">
-              <form onSubmit={SendMessages}>
-                <input
-                  type="text"
-                  placeholder="Имя"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                />
-                <input
-                  type="text"
-                  placeholder="Фамилия"
-                  value={surname}
-                  onChange={(e) => setSurname(e.target.value)}
-                />
-                <input
-                  type="text"
-                  placeholder="94 599 93 38"
-                  value={number}
-                  onChange={(e) => setNumber(e.target.value)}
-                />
-                <button type="submit" disabled={loading}>
-                  {loading ? "Юкланмоқда..." : "Отправить"}
-                </button>
-              </form>
-            </div>
-            <div className="concet-chiled" data-aos="fade-up">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11960.483246752573!2d69.2350!3d41.3195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef3b4c7085e85%3A0xdeb7632ec6801b88!2sQo'qon%20City!5e0!3m2!1sen!2s!4v1699700000000"
-                width="350px"
-                height="260"
-                title="Qo'qon City"
-              ></iframe>
+    <>
+      <div className="Masster-call">
+        <div className="container">
+          <div className="Masster-call-concet">
+            <h1 className="concet-h1">Связаться с нами</h1>
+            <div className="concet-parent">
+              <div className="concet-chiled">
+                <form id="myForm" onSubmit={SendMassamges}>
+                  <input type="text" id="name" placeholder="Имя" />
+                  <input type="text" id="surname" placeholder="Фамилия" />
+                  <input type="text" id="number" placeholder="94 599 93 38" />
+                  <button type="submit" id="submit">
+                    Отправить
+                  </button>
+                </form>
+              </div>
+              <div className="concet-chiled">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11960.483246752573!2d69.2350!3d41.3195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef3b4c7085e85%3A0xdeb7632ec6801b88!2sQo'qon%20City!5e0!3m2!1sen!2s!4v1699700000000"
+                  width="350px"
+                  height="260"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
 export default Call;
+

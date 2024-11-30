@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from '../components/About/main'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+     <Main/>
+    </>
   )
 }
 

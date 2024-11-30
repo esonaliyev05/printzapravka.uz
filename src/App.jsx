@@ -6,6 +6,7 @@ import About from './Page/About'
 import Brand from './Page/Brand'
 import Uslug from './Page/Uslug'
 import Mastercall from './Page/Mastercall'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
 
       </Routes>
     {/* </Router> */}
+    <Footer/>
     </BrowserRouter>
 
     </>

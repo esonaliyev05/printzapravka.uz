@@ -1,0 +1,118 @@
+.About {
+  width: 100%;
+  min-height: 90vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(27, 40, 56),
+    rgb(87, 102, 116)
+  );
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  .container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+    .text {
+      width: 100%;
+      border-bottom: 1px solid gray;
+      text-align: center;
+      margin: 0 auto;
+      padding: 25px 0;
+
+      h1 {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: white;
+        font-weight: 600;
+      }
+    }
+
+    .About-text-app {
+      width: 1200px;
+      min-height: 304px;
+      background-color: #f3f4f6;
+      border-radius: 16px;
+      margin: 20px 0;
+      padding: 45px;
+
+      .ht-app {
+        width: 80%;
+        height: 3px;
+        margin: 0 auto;
+        background-color: #16adae;
+      }
+
+      p {
+        width: 100%;
+        height: auto;
+        margin: 35px 0;
+        font-weight: 600;
+        line-height: 28px;
+        color: rgb(74, 68, 68);
+        font-size: 18px;
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+        span{
+            font-size: 20px;
+            color: rgb(30 58 138 );
+
+        }
+         
+      }
+    }
+
+    .About-text-chiled{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 35px 0 0 0;
+
+
+      .chiled{
+        width: 370px;
+        height: 150px;
+        background: #F3F4F6;
+        border-radius: 16px;
+        padding: 25px;
+        text-align: center;
+
+        h3{
+          font-weight: 500;
+          // color: white;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+        p{
+          margin: 10px 0 0 0;
+          color: rgb(53, 52, 52);
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+      }
+      .chiled:first-child{
+
+        h3{
+          color: rgb(30 64 175);
+
+        }
+
+      }
+      .chiled:nth-child(2){
+
+        h3{
+          color: rgb(13 148 136);
+        }
+      }
+      .chiled:nth-child(3){
+        color: rgb(234 179 8);
+      }
+    }
+
+  }
+}

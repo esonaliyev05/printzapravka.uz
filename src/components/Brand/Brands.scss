@@ -1,0 +1,153 @@
+.Reand-parent {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to right, rgb(27, 40, 56), rgb(51, 65, 78));
+  .container {
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    //    border: 1px solid white;
+
+    .text {
+      width: 80%;
+      padding: 25px 0;
+      color: white;
+      border-bottom: 1px solid rgb(142, 139, 139);
+      margin: 0 auto;
+      text-align: center;
+      font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+      h3 {
+        font-size: 25px;
+      }
+    }
+
+    .Brents-boxses {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+
+      display: grid;
+      //   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      max-height: 800px; // Faqat 5 ta element ko'rinadi
+      overflow: hidden; // Oshib ketgan qismi yashirin bo'ladi
+      transition: max-height 0.5s ease-in-out;
+
+      &.active {
+        max-height: 2650px; // Hammasi ko'rinadi
+      }
+
+      // .box {
+      //   width: 817px;
+      //   min-height: 240px;
+      //   display: flex;
+      //   border: 1px solid white;
+      //   margin: 15px auto 0 auto;
+      //   padding: 0;
+
+      //   .box-img{
+      //     width: 45%;
+      //     height: 100%;
+
+      //     img{
+      //       width: 100px;
+      //       height: 50px;
+      //     }
+
+      //   }
+      //   .box-text{
+      //     width: 50%;
+      //   }
+
+      // }
+
+      .box {
+        width: 817px;
+        min-height: 240px;
+        display: flex;
+        align-items: center;
+        background: #1b2a42; // Qoramtir fon
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); // Box-shadow chuqurroq qilingan
+        margin: 15px auto 0 auto;
+        padding: 20px;
+        border: none;
+
+        .box-img {
+          width: 40%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: var(60deg #0F1923 , 40deg #656363);
+          // background: #ff5555;
+          // background-image: linear-gradient(to right, var(--tw-gradient-stops));
+          // --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+
+          img {
+            width: 180px; // Rasm o'lchami moslashtirildi
+            height: auto;
+            filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.6)); // Rasmdagi soya
+            object-fit: cover;
+          }
+        }
+
+        .box-text {
+          width: 60%;
+          color: #ffffff; // Matn oq rangda
+          padding-left: 20px;
+          font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+          h3 {
+            font-size: 24px;
+            margin: 0;
+            color: white; // "Canon" uchun qizil rang
+            // text-shadow: 0px 2px 5px rgba(255, 85, 85, 0.7); // Matnga soya
+
+            span{
+              color: #ff5555;
+            }
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-top: 10px;
+
+            span {
+              color: #ff5555; // "Canon" uchun qizil rang
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      .active {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+      }
+    }
+    .brent-btn{
+      padding: 15px 45px;
+      color: white;
+      background-color: #303E69;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 12px;
+      margin: 20px auto;
+      position: relative;
+      left: 45%;
+
+      
+
+    }
+
+  }
+}
