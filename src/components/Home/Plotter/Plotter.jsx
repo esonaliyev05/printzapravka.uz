@@ -20,11 +20,11 @@ const Plotter = () => {
             <div className="blur"></div>
 
             <div className="bac1">
-              <img src="./Plotter/fourthbanner-nAd0r_eJ.png" alt="" />
+              <img src="./public/Plotter/fourthbanner-nAd0r_eJ.png" alt="" />
             </div>
             <div className="bac2">
               <img
-                src="./Plotter/fourthbannerprint-MywiEDUR.png"
+                src="./public/Plotter/fourthbannerprint-MywiEDUR.png"
                 alt=""
               />
             </div>
