@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container">
         <div className="Footer-parent">
           <div className="Footer-logo">
-            <img src="./public/Footer/logo-print-BsJKyGnY.png" alt="" />
+            <img src="./Footer/logo-print-BsJKyGnY.png" alt="" />
           </div>
           <div className="Footer-text-1">
             <h3>{t("Kompaniya")}</h3>

@@ -16,7 +16,7 @@ const Brands = () => {
             {" "}
             <div className="box-img">
               {" "}
-              <img src="./public/Brend/brand-canon-DilBFEjc.png" alt="" />{" "}
+              <img src="./Brend/brand-canon-DilBFEjc.png" alt="" />{" "}
             </div>
 
               <div className="box-text">
@@ -37,7 +37,7 @@ const Brands = () => {
           <div className="box">
             {" "}
             <div className="box-img">
-               <img src="./public/Brend/brand-epson-Dx9ZIMvV.png" alt="" />
+               <img src="./Brend/brand-epson-Dx9ZIMvV.png" alt="" />
             </div>
               <div className="box-text">
                 <h3>Партнерство с <span>Epson</span> </h3>
@@ -51,7 +51,7 @@ const Brands = () => {
           <div className="box">
             {" "}
             <div className="box-img">
-              <img src="./public/Brend/brand-hewlett-CB9e-dkd (1).png" alt="" />
+              <img src="./Brend/brand-hewlett-CB9e-dkd (1).png" alt="" />
             </div>
               <div className="box-text">
                 <h3>Партнерство с <span>HP</span> </h3>
@@ -63,7 +63,7 @@ const Brands = () => {
             {" "}
             <div className="box-img">
               
-              <img src="./public/Brend/brand-kyocera-BCl3Ylt3.png" alt="" />
+              <img src="./Brend/brand-kyocera-BCl3Ylt3.png" alt="" />
 
             </div>
               <div className="box-text">
@@ -77,7 +77,7 @@ const Brands = () => {
           <div className="box">
             {" "}
             <div className="box-img">
-              <img src="./public/Brend/brand-oki-DRAmekg1.png" alt="" />
+              <img src="./Brend/brand-oki-DRAmekg1.png" alt="" />
             </div>
               <div className="box-text">
                 <h3>Партнерство с <span> OKI</span> </h3>
@@ -89,7 +89,7 @@ const Brands = () => {
           <div className="box">
             {" "}
             <div className="box-img">
-              <img style={{width: "150px"}} src="./public/Brend/brand-samsung-vFraPuwF.png" alt="" />
+              <img style={{width: "150px"}} src="./Brend/brand-samsung-vFraPuwF.png" alt="" />
             </div>
               <div className="box-text">
                 <h3>Партнерство с <span>Samsung</span></h3>
@@ -99,7 +99,7 @@ const Brands = () => {
           <div className="box">
             {" "}
             <div className="box-img">
-              <img src="./public/Brend/brand-xerox-DKfsA-Rx.png" alt="" />
+              <img src="./Brend/brand-xerox-DKfsA-Rx.png" alt="" />
             </div>
               <div className="box-text">
                 <h3> Партнерство с <span> Xerox</span></h3>
@@ -109,7 +109,7 @@ const Brands = () => {
           <div className="box">
             {" "}
             <div className="box-img">
-              <img src="./public/Brend/brand-pantum-Bl_hCuJh.png" alt="" />
+              <img src="./Brend/brand-pantum-Bl_hCuJh.png" alt="" />
             </div>
               <div className="box-text">
                 <h3>Партнерство с <span>Pantum</span></h3>
@@ -121,7 +121,7 @@ const Brands = () => {
           <div className="box">
             {" "}
             <div className="box-img">
-              <img src="./public/Brend/brand-ricoh-_wgxdrKi.png" alt="" />
+              <img src="./Brend/brand-ricoh-_wgxdrKi.png" alt="" />
             </div>
               <div className="box-text">
                 <h3>Партнерство с <span>Ricoh</span> </h3>

@@ -25,7 +25,7 @@ const Features = () => {
          <div className="Features-app">
             
                <div className="Feartures-app-img">
-                <img src="./public/Print/fon-viezd-BvJlsXsK.png" alt="" />
+                <img src="./Print/fon-viezd-BvJlsXsK.png" alt="" />
                </div>
                
                <div className="Parent-app">
