@@ -82,14 +82,13 @@ const Call = () => {
   const SendMassamges = (event) => {
     event.preventDefault();
     const token = "8014119539:AAEkEiT-5aYGSUVI2F7VbIt1F2jN1M_aM5Q";
-    const chat_id =  1271362249;
+    const chat_id = 6992354984;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("name").value.trim();
     const surname = document.getElementById("surname").value.trim();
     const number = document.getElementById("number").value.trim();
-     
-   
-    
+       
+      
     // Bo'sh maydonlarni tekshirish
     if (!name || !surname || !number) {
       alert("Iltimos, barcha maydonlarni to'ldiring.");
@@ -111,6 +110,7 @@ const Call = () => {
       .catch((error) => {
         console.log("Yuborishda xatolik: ", error.response?.data || error.message);
         alert("Xabar yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.");
+        
       });
   };
 
