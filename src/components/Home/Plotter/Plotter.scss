@@ -173,19 +173,59 @@
 
     .container{
       width: 100%;
-      padding: 0;
+      max-height: 250px;
       overflow: hidden;
+      // flex-direction: column;
       
       .Plotter-parent{
         width: 100%;
+        overflow: hidden;
         flex-wrap: wrap;
-        flex-direction: column;
         
         .ploter-backed{
           width: 100%;
+
+          .blur{
+            width: 100%;
+          }
+          .bac1{
+            width: 100%;
+
+          }
+          
+          .bac2{
+            display: none;
+          }
+
+        }
+        .ploter-frond{
+          width: 100%;
+          height: 200px;
+          align-items: start;
+          padding: 0 25px;
+
+          h1{
+            font-size: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, .8), -1px -1px 2px rgba(0, 0, 0, .8), 1px -1px 2px rgba(0, 0, 0, .8), -1px 1px 2px rgba(0, 0, 0, .8);
+          
+          }
+
+          p{
+            font-size: 16px;
+            line-height: 25px;
+          }
+
         }
 
       }
+    }
+    .Plotter-backed-img{
+      width: 100%;
+
+       img{
+        height: 100%;
+        // top: 50%;
+       }
     }
 
   }
