@@ -222,3 +222,289 @@
     }
   }
 }
+
+@media screen and (max-width: 447px){
+ .container{
+  width: 100%;
+  height: auto;
+  // flex-direction: column;
+
+
+  .Onaus-parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    // flex-wrap: wrap;
+    // flex-direction: column;
+
+    .Onaus-boxs{
+      flex-wrap: wrap;
+
+      .box{
+        width: 80%;
+        height: 180px;
+      }
+      
+    }
+
+  }
+  .Onaus-text{
+    width: 100%;
+
+    .Onaus-text-chiled{
+      width: 85%;
+      padding: 0 20px;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding: 25px 0;
+
+     .text1{
+      width: 100%;
+
+      h1{
+        font-size: 40px;
+        padding: 10px 0;
+      }
+
+      p{
+        font-size: 16px;
+        padding: 20px;
+        
+      }
+     }
+     .text2{
+      width: 100%;
+      padding: 0 25px;
+
+      h1{
+        font-size: 30px;
+        
+      }
+      p{
+        font-size: 16px;
+      }
+
+     }
+ 
+
+    }
+
+  }
+
+ }
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .container{
+    width: 100%;
+    height: auto;
+    // flex-direction: column;
+  
+  
+    .Onaus-parent{
+      width: 100%;
+      height: auto;
+      display: flex;
+      padding: 50px;
+      // flex-wrap: wrap;
+      // flex-direction: column;
+  
+      .Onaus-boxs{
+        width: 100%;
+        flex-wrap: wrap;
+        background-color: white;
+  
+        .box{
+          width: 40%;
+          height: 180px;
+        }
+        
+      }
+  
+    }
+    .Onaus-text{
+      width: 100%;
+  
+      .Onaus-text-chiled{
+        width: 85%;
+        padding: 0 20px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+  
+       .text1{
+        width: 100%;
+  
+        h1{
+          font-size: 40px;
+          padding: 10px 0;
+        }
+  
+        p{
+          font-size: 16px;
+          padding: 20px 0;
+          
+        }
+       }
+       .text2{
+        width: 100%;
+        padding: 20px 0;
+  
+        h1{
+          font-size: 30px;
+          
+        }
+        p{
+          font-size: 16px;
+        }
+  
+       }
+   
+  
+      }
+  
+    }
+  
+   }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .container{
+    width: 100%;
+    height: auto;
+    // flex-direction: column;
+  
+  
+    .Onaus-parent{
+      width: 100%;
+      height: auto;
+      display: flex;
+      padding: 0 25px;
+
+      // flex-wrap: wrap;
+      // flex-direction: column;
+  
+      .Onaus-boxs{
+        flex-wrap: wrap;
+        padding: 50px 0;
+        .box{
+          width: 25%;
+          height: 180px;
+        }
+        
+      }
+  
+    }
+    .Onaus-text{
+      width: 100%;
+      padding: 50px;
+      // margin: 50px 0;
+  
+      .Onaus-text-chiled{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+  
+       .text1{
+        width: 100%;
+  
+        h1{
+          font-size: 40px;
+          padding: 10px 0;
+        }
+  
+        p{
+          font-size: 16px;
+          padding: 20px 0;
+          
+        }
+       }
+       .text2{
+        width: 100%;
+  
+        h1{
+          font-size: 30px;
+          
+        }
+        p{
+          font-size: 16px;
+        }
+  
+       }
+   
+  
+      }
+  
+    }
+  
+   }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px){
+  .container{
+    width: 100%;
+    height: auto;
+    // flex-direction: column;
+  
+  
+    .Onaus-parent{
+      width: 100%;
+      height: auto;
+      display: flex;
+      padding: 0 25px;
+
+      // flex-wrap: wrap;
+      // flex-direction: column;
+  
+      .Onaus-boxs{
+        flex-wrap: wrap;
+        padding: 50px 0;
+        .box{
+          width: 25%;
+          height: 180px;
+        }
+        
+      }
+  
+    }
+    .Onaus-text{
+      width: 100%;
+      padding: 0 20px;
+      padding: 50px;
+  
+      .Onaus-text-chiled{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+  
+       .text1{
+        width: 100%;
+  
+        h1{
+          font-size: 40px;
+          padding: 10px 0;
+        }
+  
+        p{
+          font-size: 16px;
+          padding: 20px 0;
+          
+        }
+       }
+       .text2{
+        width: 100%;
+  
+        h1{
+          font-size: 30px;
+          
+        }
+        p{
+          font-size: 16px;
+        }
+  
+       }
+   
+  
+      }
+  
+    }
+  
+   }
+  
+}

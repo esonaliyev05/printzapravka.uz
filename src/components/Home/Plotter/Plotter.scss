@@ -7,6 +7,8 @@
     width: 100%;
     min-height: 600px;
     background-color: #293d51;
+    overflow: hidden;
+
     // position: relative;
 
     .Plotter-parent {
@@ -164,3 +166,28 @@
     }
   }
 }
+@media screen and (max-width: 447px) {
+  .Plotter{
+    width: 100%;
+    height: auto;
+
+    .container{
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      
+      .Plotter-parent{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        .ploter-backed{
+          width: 100%;
+        }
+
+      }
+    }
+
+  }
+}
+

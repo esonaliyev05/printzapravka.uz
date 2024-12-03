@@ -77,6 +77,7 @@ const Onaus = () => {
 
               </div>
             </div>
+            
             {/* <div data-aos="fade-right"  data-aos-duration="3500" className="box">
             <img
     src="printer.jpg"

@@ -3,7 +3,7 @@ nav {
   height: 80px;
   justify-content: center;
   background-color: rgb(27, 40, 56);
-  border-bottom-color: rgb(229, 231, 235);
+  border-bottom-color: rgb(176, 201, 250);
   border-bottom-style: solid;
   border-bottom-width: 0px;
   position: fixed;
@@ -102,27 +102,29 @@ nav {
   }
 }
 @media screen and (max-width: 447px){
-    nav{
+  nav{
+    width: 100%;
+    padding: 0 10px;
+    .container{
         width: 100%;
-        padding: 0 10px;
-        .container{
-            width: 100%;
+        display: flex;
+        justify-content: space-between ;
 
-            .Nav-icon{
-                display: flex;
-                font-size: 30px;
-                color: white;
-                font-weight: 100;
-
-            }
-          
-
-            .Nav-ul-concet{
-                display: none;
-            }
+        .Nav-icon{
+            display: flex;
+            font-size: 30px;
+            color: white;
+            font-weight: 100;
 
         }
+      
+
+        .Nav-ul-concet{
+            display: none;
+        }
+
     }
+}
     
 }
 @media screen and (min-width: 447px) and (max-width: 769px){
